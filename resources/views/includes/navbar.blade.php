@@ -50,6 +50,10 @@
     .decalage3{
       left:70%;
     }
+    .middle{
+    
+      left: 30%;
+    }
   </style>
 
 </nav>
@@ -60,18 +64,23 @@
       <li data-target="#demo" data-slide-to="0" class="active"></li>
       <li data-target="#demo" data-slide-to="1"></li>
       <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+
     </ul>
   
     <!-- The slideshow -->
-    <div class="carousel-inner">
+    <div class="carousel-inner middle">
       <div class="carousel-item active">
-        <img src="img/15.jpg" alt="Los Angeles">
+        <img src="img/ace.jpg" alt="Los Angeles">
       </div>
       <div class="carousel-item">
-        <img src="img/16.jpg" alt="Chicago">
+        <img src="img/marco.jpg" alt="Chicago">
       </div>
       <div class="carousel-item">
-        <img src="img/17.jpg" alt="New York">
+        <img src="img/mihawk.jpg" alt="New York">
+      </div>
+      <div class="carousel-item">
+        <img src="img/zoro1.jpg" alt="California">
       </div>
     </div>
   
